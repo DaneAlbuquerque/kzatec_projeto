@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    width: 100%;
+
+}
+
+body {
+   font-family: 'Montserrat';
+   background-color: #ffffff;
+}
+
+.logo1 {
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+nav {
+    text-align: left;
+    margin: 10px;  
+    font-family: 'Montserrat'; 
+    position: absolute;    
+    left: 600px;
+    top: 40px;   
+}
+
+.navitem {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    padding-left: 85px;
+}
+
+.navitem:hover {
+    font-weight: bold;
+}
+
+.img1 {
+    height: 500px;
+    padding-left: 90px;
+    padding-top: 82px;
+}
+
+h1 {
+    position: absolute;
+    left: 689px;
+    top: 225px;
+    font-weight: 700;
+}
+
+.banner1 {
+    position: absolute;
+    text-align: left;
+    left: 689px;
+    right: 200px;
+    top: 320px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 150px;
+    line-height: 25px;
+    color: #595959;
+}
+   
+.btn {
+    position: absolute;
+    text-decoration: none;
+    font-family:'Montserrat';
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-left: -35px;
+    margin-top: 390px;
+    color: blue;
+}
+
+.elipse1 {
+    position: absolute;
+    left: -150px;
+    top: 820px;
+    z-index: -1;
+}
+
+.elipse2 {
+    position: absolute;
+    left: 900px;
+    top: 1550px;
+   
+}
+
+.retangulo {
+    position: absolute;
+    margin: top: 935px;
+    left: 130px;
+    top: 935px;
+    z-index: -1;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #595959;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container2item {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;   
+}
+
+.banner2 {
+    height: 300px;
+}
+
+.conteudo {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 150px;
+    color: beige;
+    margin-left: 20px;
+    margin-right: 28px;
+    text-align: left;
+}
+
+#gmap_canvas {
+    overflow: hidden;
+    margin-left: 135px;
+    z-index: 1;
+}
+
+.maps {
+    width: 1000px;
+}
+
+
+.risco {
+    margin-top: 50px;
+    margin-left: 600px;
+    height: 2px;
+}
+
+.banner3 {
+    height: 150px;
+    margin-left: 250px;
+    margin-bottom: 70px;
+}
+
+footer {
+    background-color: black;
+}
+
+.logo2 {
+    width: 120px;
+    margin: 20px 80px;  
+}
+
+.rodape {
+    position: absolute;
+    text-align: right;
+    color: #a5a2a2;
+    font-size: small;
+    margin-left: 970px;
+    margin-top: -40px; 
+}
